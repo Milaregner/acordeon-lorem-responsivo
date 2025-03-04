@@ -1,0 +1,106 @@
+/* Responsivo para telas menores que 768px (tablets e celulares) */
+@media (max-width: 840px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh; 
+    }
+
+    .acordeon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        max-width: 500px;
+        padding: 20px;
+        padding-top: 180px;
+        
+    }
+
+    .acordeon .ilustracao {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+        top:220px !important;
+        left: 100px !important;
+    }
+
+    .acordeon .conteudo {
+        width: 100%;
+        height: 80%;
+        padding-left: 0;
+        text-align: center;
+        padding-left: 0 !important;
+        margin-top: 200px;    
+    }
+
+    .acordeon .conteudo h1 {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+
+    .acordeon .items {
+        width: 100%;
+        text-align: left;
+    }
+
+    .acordeon .items .item {
+        padding: 10px;
+    }
+}
+
+/* Para telas menores que 500px */
+@media (max-width: 500px) {
+    .acordeon {
+        width: 90%;
+        height: 98%;
+        max-width: 380px;
+        padding:100px 20px 30px;
+        min-height: 200px;
+        margin:20px auto;
+    }
+
+    .acordeon .ilustracao {
+        width: 200px;
+        height: 200px;
+        top: 10px;
+        /* transform: translate(-50%); */
+        /* left:50%; */
+        /* top:200px !important; */
+        left: 40px !important;
+    }
+
+
+    .acordeon .conteudo {
+        width: 100%;
+        /* padding-left: 0; */
+        text-align: center;
+        margin-top:260px;
+    }
+
+    .acordeon .conteudo h1 {
+        margin-top:50px;
+    }
+
+    .acordeon .items .item .pergunta {
+        font-size: 13px;
+    }
+
+    .resposta {
+        font-size: 10px;
+    }
+
+}
