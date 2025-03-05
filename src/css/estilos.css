@@ -3,6 +3,7 @@
 
 body{
     font-family: "Roboto", serif;
+    overflow-x:hidden;
 }
 
 html{
@@ -17,7 +18,8 @@ main{
 }
 
 .acordeon{
-    width: 655px;
+    max-width: 655px;
+    width:90%;
     min-height: 347px;
     box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
     background-color: #F6F0F0;
