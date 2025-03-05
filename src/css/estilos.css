@@ -27,6 +27,7 @@ main{
     align-items: center;
     border-radius: 30px;
     position: relative;
+    margin:0 auto;
 }
 
 .acordeon .ilustracao{
@@ -82,7 +83,7 @@ main{
 
 .resposta{
     display: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 15px;
     font-weight: 300;
 }
