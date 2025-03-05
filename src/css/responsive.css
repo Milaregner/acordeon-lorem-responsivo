@@ -1,4 +1,4 @@
-/* Responsivo para telas menores que 768px (tablets e celulares) */
+/* Responsivo para telas menores que 840px (tablets e celulares) */
 @media (max-width: 840px) {
     html, body {
         height: 100%;
@@ -31,7 +31,6 @@
 
     .acordeon .ilustracao {
         width: 200px;
-        /* height: 200px; */
         margin-bottom: 20px;
         top:180px !important;
         left: 100px !important;
@@ -39,7 +38,6 @@
 
     .acordeon .conteudo {
         width: 100%;
-        /* height: 80%; */
         padding-left: 0;
         text-align: center;
         padding-left: 0 !important;
@@ -69,26 +67,16 @@
         height: 98%;
         max-width: 380px;
         padding:100px 20px 30px;
-        /* min-height: 200px; */
-        /* margin: auto; */
     }
 
     .acordeon .ilustracao {
         width: 200px;
-        /* height: 200px; */
-        /* top: -30px; */
-        /* transform: translate(-50%); */
-        /* left:50%; */
-        /* top:200px !important; */
         left: 40px !important;
-        top: 180px !important;
-        
+        top: 180px !important;      
     }
-
 
     .acordeon .conteudo {
         width: 100%;
-        /* padding-left: 0; */
         text-align: center;
         margin-top:210px;
     }
